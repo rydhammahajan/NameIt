@@ -2,9 +2,10 @@
   "name": "name-it",
   "version": "1.0.0",
   "description": "Name It React App",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": " parcel src/index.html",
+    "start": "parcel src/index.html",
+    "build" :  "parcel src/index.html",
     "test": "jest"
   },
   "repository": {
