@@ -1,0 +1,30 @@
+{
+  "name": "name-it",
+  "version": "1.0.0",
+  "description": "Name It React App",
+  "main": "index.js",
+  "scripts": {
+    "start": " parcel src/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rydhammahajan/NameIt.git"
+  },
+  "author": "Rydham Mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rydhammahajan/NameIt/issues"
+  },
+  "homepage": "https://github.com/rydhammahajan/NameIt#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@rstacruz/startup-name-generator": "0.3.0",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

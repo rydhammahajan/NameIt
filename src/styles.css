@@ -1,0 +1,80 @@
+*{
+    margin : 0px ; 
+    padding : 0px ; 
+}
+
+.backgroundColor{
+    background-color:rgb(101, 78, 146); 
+}
+
+.textColor{
+    color: rgb(240, 240, 240) ; 
+}
+.cursive {
+    font-family: cursive;
+}
+img , input , .searchResult{
+    border-radius:  50px ;
+}
+input{
+    background-color:rgb(145, 127, 179);
+    border:1px solid rgb(145, 127, 179) ;
+    color: rgb(240, 240, 240) ;
+    font-weight: 500;
+    height : 50px ; 
+    width : 500px ;
+}
+::placeholder{
+    color: rgb(240, 237, 237) ;
+    font-weight: 100;
+}
+input:focus {
+   outline: 0px;
+}
+
+.animation{
+    height : 200px ;
+    width : 300px ;
+    transition: all ease-in-out 1s;
+}
+
+.searchResult{
+    background-color: rgb(145, 127, 179);
+    width : 80% ;
+    font-weight: 100;
+}
+
+.searchBox{
+    width : 20% ;
+    background-color:rgb(101, 78, 146) ;
+    color: white ;
+    font-weight: 500;
+    border-radius: 10px ;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+
+.searchBox:hover{
+    background-color:  rgb(135, 111, 185);
+    color: rgb(240, 237, 237) ;
+}
+
+@media screen and (max-width :  500px) {
+    
+    input{
+        width : 300px ;
+    }
+
+    img{
+        height : 250px ;
+        width : 300px ;
+    }
+
+    .animation{
+        width : 200px ;
+    }
+    .searchBox{
+        width : 100% ;
+    }
+}
